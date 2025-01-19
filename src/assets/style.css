@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-Light.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ebrima;
+    src: url(./fonts/ebrima.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ebrima Bold;
+    src: url(./fonts/ebrimabd.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 0 100px;
+}
+
+@media screen and (max-width:991px) {
+    .container {
+        padding: 0 50px;
+    }
+}
